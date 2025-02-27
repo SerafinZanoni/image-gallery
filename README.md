@@ -1,31 +1,59 @@
-# Next.js & Cloudinary example app
+# 📼 Next.js & Cloudinary Example App
 
-This example shows how to create an image gallery site using Next.js, [Cloudinary](https://cloudinary.com), and [Tailwind](https://tailwindcss.com).
+Este proyecto es un ejemplo de cómo crear una galería de imágenes usando **Next.js**, **Cloudinary** y **Tailwind CSS**.
 
-## Deploy your own
+## 🚀 Despliegue
+Puedes desplegar tu propia versión utilizando **Vercel** o ver la demo en el siguiente enlace:  
+[Deploy con Vercel](https://vercel.com)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or view the demo [here](https://nextconf-images.vercel.app/)
+Consulta la [documentación de despliegue de Next.js](https://nextjs.org/docs/deployment) para más detalles.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-cloudinary&project-name=nextjs-image-gallery&repository-name=with-cloudinary&env=NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,CLOUDINARY_API_KEY,CLOUDINARY_API_SECRET,CLOUDINARY_FOLDER&envDescription=API%20Keys%20from%20Cloudinary%20needed%20to%20run%20this%20application.)
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## ⚡ Instalación y Uso
+Para ejecutar este proyecto localmente, sigue estos pasos:
 
-## How to use
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/SerafinZanoni/image-gallery.git
+   cd next-cloudinary-app
+   ```
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+2. **Instalar dependencias:**
+   ```bash
+   npm install
+   # o
+   yarn install
+   # o
+   pnpm install
+   ```
 
-```bash
-npx create-next-app --example with-cloudinary with-cloudinary-app
-```
+3. **Configurar variables de entorno:**
+   Crea un archivo `.env.local` y agrega tus credenciales de Cloudinary:
+   ```env
+   NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=tu-cloud-name
+   NEXT_PUBLIC_CLOUDINARY_API_KEY=tu-api-key
+   CLOUDINARY_API_SECRET=tu-api-secret
+   ```
 
-```bash
-yarn create next-app --example with-cloudinary with-cloudinary-app
-```
+4. **Ejecutar el proyecto:**
+   ```bash
+   npm run dev
+   ```
+   Luego accede a `http://localhost:3000`
 
-```bash
-pnpm create next-app --example with-cloudinary with-cloudinary-app
-```
+---
 
-## References
+## 🔍 Referencias
+- [Cloudinary API](https://cloudinary.com/documentation/transformation_reference)
+- [Next.js Deployment Docs](https://nextjs.org/docs/deployment)
 
-- Cloudinary API: https://cloudinary.com/documentation/transformation_reference
+## 🤝 Contribuciones
+Las contribuciones son bienvenidas. Haz un **fork**, crea una rama y envía un **Pull Request**.
+
+## 📝 Licencia
+Este proyecto está bajo la licencia **MIT**.
+
+---
+
+📩 **Contacto:** serazanoni@gmail.com 
